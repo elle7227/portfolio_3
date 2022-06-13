@@ -1,0 +1,411 @@
+.hide{
+    display:none !important;
+} 
+
+.nav ul {
+    padding: 0px;
+    margin-bottom: 1px;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+  }
+  .nav li {
+    display: inline-block;
+    font-size: 1rem;
+   margin-right: 20px;
+  }
+  a{
+    color: rgb(92, 90, 90);
+    text-decoration: none;
+  }
+   a:hover{
+          text-decoration: underline;
+      }
+
+#program_tekst h2{
+    font-size: 2.4rem;
+    font-family: 'Space Mono', monospace;
+  letter-spacing: 30px;
+    position: absolute;
+    top: 3.5%;
+    left: 12%;
+}
+
+#element_1{
+    margin-right: 100px;
+    margin-top: 40px;
+    padding-bottom: 15px;
+}
+
+.main{
+    border-left: solid 4px black;
+    margin-left: 50px;
+}
+h2{
+    font-family: 'Space Mono', monospace;
+    font-size: 2rem;
+}
+h1{
+    font-family: 'Space Mono', monospace;
+    font-size: 1rem;
+    margin-left: 10px;
+    padding-top: 30px;
+}
+
+p{
+    font-family: 'Prompt', sans-serif;
+}
+
+#forside_02, #forside_03, #forside_04, #forside_05{
+        margin-right: 50px;
+        margin-top: 40px;
+}
+
+#forside_02 h2, #forside_03 h2, #forside_04 h2,  #forside_05 h2{
+    margin-top: 10px;  
+    padding-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    
+}
+
+#forside_02 img, #forside_03 img, #forside_04 img, #forside_05 img{
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+
+#indhold_02_overst img, #indhold_03_overst img, #indhold_04_overst img, #indhold_05_overst img{
+    order: 1;
+    margin-left: 5px;
+    width: 150px;
+}
+#indhold_02_nederst img, #indhold_03_nederst img, #indhold_04_nederst img, #indhold_05_nederst img{
+    order: 1;
+    margin-left: 5px;
+    width: 150px;
+}
+
+@media (min-width: 1000px){
+    .nav ul {
+        margin-bottom: 60px;
+      }
+      .nav li {
+        font-size: 1.5rem;
+        margin-right: 50px;
+      }
+   
+      
+      a:hover{
+          text-decoration: underline;
+      }
+
+
+    .main{
+        border-left: solid 4px black;
+        margin-left: 10px;
+    }
+    
+    h1{
+        font-size: 2.7rem;
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+    h2{
+        font-size: 3.2rem;
+        color: rgb(92, 90, 90);
+    }
+    
+    p{
+    font-size: 1.3rem;
+    }
+    
+    #program_tekst h2{
+        color: black;
+     font-size: 3.2rem;
+      letter-spacing: 30px;
+      position: absolute;
+      top: 2%;
+        left: 5%;
+    }
+
+    .grid_1{
+    display: grid ;
+    }
+    
+    #element_1{
+        margin-top: 15px;
+    }
+    
+    
+    #forside_02, #forside_03, #forside_04, #forside_05{
+    display: flex;
+        border-top: solid 2px black;
+        margin-right: 80px;
+    }
+    
+    #forside_02 h2, #forside_03 h2, #forside_04 h2,  #forside_05 h2{
+        margin-top: 5px;  
+        margin-left: 5px;
+    }
+    
+    #forside_02 img{
+        margin-left: 570px;
+        width: 150px;
+        margin-bottom: 10px;
+    }
+    #forside_02 p{
+        margin-left: 50px;
+        width: 150px;
+        margin-top: 1px;
+    }
+    #indhold_02_overst p{
+        margin-top: 50px;
+        margin-inline: 50px;
+        margin-left: 45px;
+        text-align: justify;
+    }
+    
+    #forside_03 img{
+        margin-bottom: 10px;
+        margin-left: 615px;
+        width: 150px;
+    }
+    #forside_03 p{
+        margin-left: 50px;
+        width: 150px;
+        margin-top: 1px;
+    }
+    #indhold_03_overst p{
+        margin-top: 50px;
+        margin-inline: 50px;
+        margin-left: 87px;
+        text-align: justify;
+    }
+
+    #forside_04 img{
+        margin-left: 385px;
+        width: 150px;  
+        margin-bottom: 10px;
+    }
+    #forside_04 p{
+        margin-left: 50px;
+        width: 150px;
+        margin-top: 1px;
+    }
+    
+    #forside_05 img{
+        margin-left: 448px;
+        width: 150px; 
+        margin-bottom: 10px;
+    }
+    #forside_05 p{
+        margin-left: 50px;
+        width: 150px;
+        margin-top: 1px;
+    }
+    
+    
+    #indhold_02_overst, #indhold_03_overst, #indhold_04_overst,  #indhold_05_overst{
+        display: flex;
+        border-top: solid 2px black;
+        margin-right: 100px;
+    }
+    #indhold_02_overst h2, #indhold_03_overst h2, #indhold_04_overst h2, #indhold_05_overst h2{
+    margin-top: 5px;
+    margin-left: 5px;
+    }
+    #indhold_04_overst p, #indhold_05_overst p{
+    margin-inline: 50px;
+    margin-top: 50px;
+     text-align: justify;
+    }
+    #indhold_02_overst img, #indhold_03_overst img, #indhold_04_overst img, #indhold_05_overst img{
+        order: 1;
+        margin-left: 5px;
+        margin-top: 50px;
+    }
+    
+    
+    #indhold_02_nederst, #indhold_03_nederst, #indhold_04_nederst, #indhold_05_nederst{
+        display: flex;
+            margin-right: 100px;
+            margin-top: 10px;
+    }
+    #indhold_02_nederst p, #indhold_03_nederst p, #indhold_04_nederst p, #indhold_05_nederst p{
+        margin-inline: 50px;
+        margin-left: 240px;
+        text-align: justify;
+    }
+    
+    #indhold_02_nederst img, #indhold_03_nederst img, #indhold_04_nederst img, #indhold_05_nederst img{
+        order: 1;
+        margin-left: 5px;
+        margin-bottom: 50px;
+    }
+    
+    .hide{
+        display:none !important;
+      }    
+}
+
+
+@media (min-width:1300px){
+
+.main{
+    border-left: solid 6px black;
+    margin-left: 180px;
+}
+
+h2:hover{
+    color: black;
+}
+
+#indhold_02 img:hover, #indhold_03 img:hover, #indhold_04 img:hover, #indhold_05 img:hover{
+    scale: 150%;
+}
+
+h1{
+    
+    font-size: 4rem;
+    margin-left: 30px;
+}
+h2{
+    color: rgb(92, 90, 90);
+    font-size: 3.2rem;
+}
+
+p{
+font-size: 1rem;
+}
+
+img{
+    object-fit: cover;
+}
+
+#program_tekst h2{
+    color: black;
+    font-size: 5rem;
+  letter-spacing: 20px;
+    position: absolute;
+    top: 1.2%;
+    left: 15%;
+}
+.grid_1{
+display: grid ;
+}
+
+#element_1{
+    margin-right: 100px;
+    margin-top: 10px;
+    padding-bottom: 25px;
+}
+
+#forside_02, #forside_03, #forside_04, #forside_05{
+display: flex;
+    border-top: solid 2px black;
+    margin-right: 80px;
+}
+
+
+#forside_02 img{
+    margin-left: 570px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+#forside_02 p{
+    margin-left: 50px;
+    width: 150px;
+    margin-top: 1px;
+    font: weight 400px;;
+}
+#indhold_02_overst p{
+    margin-top: 50px;
+    margin-inline: 50px;
+    margin-left: 45px;
+    text-align: justify;
+}
+
+#forside_03 img{
+    margin-bottom: 10px;
+    margin-left: 615px;
+    width: 150px;
+}
+#forside_03 p{
+    margin-left: 50px;
+    width: 150px;
+    margin-top: 1px;
+}
+#indhold_03_overst p{
+    margin-top: 50px;
+    margin-inline: 50px;
+    margin-left: 87px;
+    text-align: justify;
+}
+
+#forside_04 img{
+    margin-left: 385px;
+    width: 150px;  
+    margin-bottom: 10px;
+}
+#forside_04 p{
+    margin-left: 50px;
+    width: 150px;
+    margin-top: 1px;
+}
+
+
+#forside_05 img{
+    margin-left: 448px;
+    width: 150px; 
+    margin-bottom: 10px;
+}
+#forside_05 p{
+    margin-left: 50px;
+    width: 150px;
+    margin-top: 1px;
+}
+
+
+#indhold_02_overst, #indhold_03_overst, #indhold_04_overst,  #indhold_05_overst{
+    display: flex;
+    border-top: solid 2px black;
+    margin-right: 100px;
+}
+#indhold_02_overst h2, #indhold_03_overst h2, #indhold_04_overst h2, #indhold_05_overst h2{
+    color: black;
+margin-top: 5px;
+margin-left: 5px;
+}
+#indhold_04_overst p, #indhold_05_overst p{
+margin-inline: 50px;
+margin-top: 50px;
+ text-align: justify;
+}
+#indhold_02_overst img, #indhold_03_overst img, #indhold_04_overst img, #indhold_05_overst img{
+    order: 1;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+
+
+#indhold_02_nederst, #indhold_03_nederst, #indhold_04_nederst, #indhold_05_nederst{
+    display: flex;
+        margin-right: 100px;
+        margin-top: 10px;
+}
+#indhold_02_nederst p, #indhold_03_nederst p, #indhold_04_nederst p, #indhold_05_nederst p{
+    margin-inline: 50px;
+    margin-left: 240px;
+    text-align: justify;
+}
+
+#indhold_02_nederst img, #indhold_03_nederst img, #indhold_04_nederst img, #indhold_05_nederst img{
+    order: 1;
+    margin-left: 5px;
+    margin-bottom: 50px;
+}
+
+.hide{
+    display:none !important;
+  }   
+  }

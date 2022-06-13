@@ -1,0 +1,240 @@
+.nav ul {
+    padding: 0px;
+    margin-bottom: 10px;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+  }
+  .nav li {
+    display: inline-block;
+    font-size: 1rem;
+   margin-right: 20px;
+  }
+  a{
+    color: rgb(92, 90, 90);
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: underline;
+ }
+ 
+ h1{
+    font-family: 'Space Mono', monospace;
+     font-size: 2rem;
+ }
+ h2{
+    font-family: 'Space Mono', monospace;
+     font-size: 1rem;
+ 
+ }
+ h3{
+    font-size: 0.5rem;
+    font-family: 'Space Mono', monospace;
+ }
+ 
+ p{
+    font-family: 'Prompt', sans-serif;
+    font-size: 0.5rem;
+ }
+ .main{
+     border-top:solid 4px black; ;
+     border-left: solid 4px black;
+     border-right: solid 4px black;
+     margin-inline: 35px;
+ }
+ /*øverste boks/grid med menu */
+ .grid_05{
+     display: grid;
+     grid-template-columns: 1fr 3fr 1fr;
+     margin-top: 50px;
+     margin-inline: 20px;
+ }
+ 
+ /*overskrifterne, colonne med grafik og stregkoden*/
+ .grid_1 {
+     display: grid;
+     grid-template-columns: 3fr 1fr;
+ }
+ /*ellen hein boksen*/
+ #element_1-1{
+     border-bottom: solid 1px black;
+ }
+ /*multimediedesign boksen*/
+ #element_1-2{
+     border-bottom: solid 1px black;
+ }
+ /*stregkoden*/
+ #element_1-3 img{
+     width: 350px;
+ padding-bottom: 5px;
+ }
+ 
+ .grid_2{
+ display: grid;
+ grid-template-columns: 2fr 1fr;
+ border-top: solid 1px black;
+ }
+ 
+ /*kolonne til venstre med om mig tekst*/
+ #col_2-1 h3{
+     margin-left: 10px;
+     color: #D81146;
+ }
+ 
+ #col_2-1 p{
+     padding-left: 10px;
+     font-size: 0.6rem;
+ }
+ /*kolonne til højre med portræt*/
+ #col_2-2 img{
+ width: 200px;
+ }
+ 
+ 
+ /*boksen med MIT CV TEKST*/
+ .grid_3{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+    margin-top: -7px;
+    border-bottom: solid 4px black;
+ }
+ .grid_3 img{
+    margin-left: 9px; 
+    width: 100px;
+ }
+ .mit_cv{
+    text-align: center;
+ }
+ 
+ .grid_3 img:hover{
+  scale: 120%;
+  }
+  .hide{
+    display:none;
+ }
+ 
+  @media (min-width: 700px){
+     h1{
+         font-size: 2.5rem;
+     }
+     h2{
+         font-size: 1.5rem;
+     }
+     .main{
+         border-top:solid 6px black; ;
+         border-left: solid 6px black;
+         border-right: solid 6px black;
+     }
+  }
+ 
+  @media (min-width: 1200px){
+ 
+ .nav ul {
+    margin-bottom: 60px;
+ }
+ .nav li {
+    font-size: 1.5rem;
+    margin-right: 50px;
+ }
+ 
+ .main{
+    border-top:solid 6px black; ;
+    border-left: solid 6px black;
+    border-right: solid 6px black;
+    margin-inline: 230px;
+ }
+ h1{
+     font-size: 5rem;
+    
+ }
+ h2{
+     font-size: 3rem;
+ }
+         
+ h3{
+    font-size: 1.5rem;
+ }
+ 
+ /*stregkoden*/
+ #element_1-3 img{
+     width: 700px;
+ padding-bottom: 20px;
+ margin-left: 120px;
+ }
+ 
+ #col_1-2 img{ 
+    width:90px;
+    margin-inline: auto;
+ }
+ 
+ .mit_cv{
+ margin-top: -15px;
+ }
+ .grid_2{
+ display: grid;
+ grid-template-columns: 2fr 1fr;
+ 
+ }
+ 
+ /*kolonne til venstre med om mig tekst*/
+ #col_2-1 p{
+     padding-left: 20px;
+     padding-right: 20px;
+     text-align:center;
+     line-height: 25px;
+     font-size: 1rem;;
+ }
+ /*kolonne til højre med portræt*/
+ #col_2-2 img{
+ width: 500px;
+ }
+ 
+ /* CV */
+ .grid_3{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ border-inline: none;
+ padding-bottom: 100px;
+ gap: 60px;
+ border-bottom: solid 6px black;
+ }
+ .grid_3 img{
+ margin-left: 40px;
+ }
+ 
+ 
+ .hide{
+     display:none;
+ }
+ 
+ #cv_1_forside img{
+    width: 200px;
+    
+  } 
+  #cv_1_tekst {
+     position: absolute;
+     top: 186%;
+     left:25%;
+  } 
+ 
+  #cv_2_forside img{
+     width: 200px;
+     
+    
+  } 
+ 
+  #cv_2_tekst{
+     position: absolute;
+     top: 186%;
+     left:45%;
+  } 
+ 
+  #cv_3_forside img{
+     width:200px;
+   
+  } 
+  #cv_3_tekst{
+     position: absolute;
+     top: 186%;
+     left:65%;
+  }  
+  }
