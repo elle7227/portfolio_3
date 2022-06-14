@@ -4,9 +4,10 @@ body{
   }
   
   .main{
-      border: solid 4px black;
+      border: double 8px black;
       margin-inline: 141px;
-      margin-top: 80px;
+      margin-top: 20px;
+      padding-bottom: 650px;
   }
   .nav ul {
     padding: 0px;
@@ -26,6 +27,10 @@ body{
   
   a:hover{
       text-decoration: underline;
+  }
+
+  img:hover{
+      scale: 120%;
   }
   
     h1{
@@ -56,37 +61,40 @@ h2{
 }
   
 #overskrift h1{
-    font-size: 4rem;
+    font-size: 2.2rem;
     letter-spacing: 10px;
     position: absolute;
     color: black;
-    top: 28%;
-    left: 20%;
-}
-button{
-    font-family:'Prompt', sans-serif;
-    font-size: 1.3rem;
-    text-align: center;
-    background-color: #D81146;
-    border:none;
-    border-radius: 12px;
-    align-content: center;
-    position: absolute;
-    right: 45%;
-    top: 70%;
+    top: 34%;
+    left: 13%;
 }
 
-button a{
-    color: white;
-    font-size: 1rem;
+.grid_1 h1{
+    font-size: 2.2rem;
+    letter-spacing: 10px;
+    position: absolute;
+    color: black;
+    position: absolute;
+    right: 13%;
+    top: 41%
 }
+
 .grid_1{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-inline: 50px;
+    grid-template-columns: 1fr 1fr;
+    padding-inline: 60px;
     margin-block: 15px;
-  
 }
+
+#sid_plakat img{
+    width: 350px;
+}
+#sid_plakat {
+    position: absolute;
+    right: 16%;
+    top: 38%
+}
+
 .grid_2{
     display: grid;
     grid-template-columns: 1fr 8fr;
@@ -102,17 +110,16 @@ margin-top:-82px;
 margin-right: 140px;
 }
 
-
-.grid_2 img{
-    width: 100px;
-}
-.grid_1 img{
+#ellen_plakat img{
     width: 350px;
     object-fit: cover;
     margin-right: -30px; 
+    margin-top: 25px;
 }
-#plakat img{
-    display: none;
+#ellen_plakat {
+    position: absolute;
+    right: 58%;
+    top: 20%
 }
 
   #gardin_hojre img, #gardin_venstre img{
@@ -166,41 +173,43 @@ margin-right: 140px;
       animation-iteration-count: 1;
       animation-timing-function: linear;
       animation-fill-mode: forwards;
-      
     }
     
     @keyframes slide_2 {
-      from {
-        transform: translatex(0%);
-      }
-      to {
-        transform: translatex(-100%);
-      }
+    from {
+    transform: translatex(0%);}
+    to {
+    transform: translatex(-100%);}
+    }
+    
+    @media (max-width: 1000px){
+
+    .main{
+        border:none;
     }
 
-  
-    @media (max-width: 600px){
-
-    #plakat img{
-        display: grid;
-        width: 430px;
-        margin-top: 13px;
-        margin-left: 4px;
-    }
-
-    button{
-    right: 40%;
-    margin-top: 10px;
-    }
-
-    h1{
+    #sid_plakat{
     display: none;
-    }
+   }
 
-    .grid_1, .grid_2{
+#ellen_plakat{
+   margin-top: 20px;
+}
+
+#ellen_plakat {
+    position: absolute;
+    right: 16%;
+    top: 20%;
+}
+    #overskrift h1{
+    display: grid;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 34%;
+    }
+    .grid_1 h1{
         display: none;
     }
-
       .nav ul {
         padding: 0px;
         margin-bottom: 1px;
@@ -212,6 +221,7 @@ margin-right: 140px;
         font-size: 1rem;
        margin-right: 20px;
       }
+
       a{
         color: rgb(92, 90, 90);
         text-decoration: none;

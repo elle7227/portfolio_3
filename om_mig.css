@@ -93,7 +93,7 @@
  /*boksen med MIT CV TEKST*/
  .grid_3{
      display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-columns: 1fr 1fr;
     margin-top: -7px;
     border-bottom: solid 4px black;
  }
@@ -110,6 +110,12 @@
   }
   .hide{
     display:none;
+ }
+
+
+ .col_1 h3, .col_2 h3{
+     font-size: 1rem;
+     margin-left: 20px;
  }
  
   @media (min-width: 700px){
@@ -141,12 +147,12 @@
     border-left: solid 6px black;
     border-right: solid 6px black;
     margin-inline: 250px;
-    margin-bottom:20p ;
+    margin-bottom:20px;
  }
  h1{
-     font-size: 5rem;
-    
+     font-size: 5rem;  
  }
+
  h2{
      font-size: 3rem;
  }
@@ -220,8 +226,6 @@
     text-align: left;
     margin-left: 40px;
 }
-
- 
 
  .hide{
      display:none;
