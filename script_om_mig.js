@@ -9,8 +9,8 @@ function sidenVises(){
 
 
     //definerer eventlistenere (click funktioner)//
-    document.querySelector("#cv_1_forside").addEventListener("click", click1);
-    document.querySelector("#cv_1_tekst").addEventListener("click", click11);
+    document.querySelector("#cv_1_forside").addEventListener("mouseover", click1);
+    document.querySelector("#cv_1_tekst").addEventListener("mouseout", click11);
 
     document.querySelector("#cv_2_forside").addEventListener("click", click2);
     document.querySelector("#cv_2_tekst").addEventListener("click", click22);

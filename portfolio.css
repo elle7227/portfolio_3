@@ -76,7 +76,7 @@ p{
 
 #indhold_02_overst img, #indhold_03_overst img, #indhold_04_overst img, #indhold_05_overst img{
     order: 1;
-    margin-left: 5px;
+    margin-left: 10px;
     width: 150px;
 }
 #indhold_02_nederst img, #indhold_03_nederst img, #indhold_04_nederst img, #indhold_05_nederst img{
@@ -149,6 +149,11 @@ p{
     }
     
     #forside_02 img{
+        margin-left: 570px;
+        width: 150px;
+        margin-bottom: 10px;
+    }
+    #forside_02 h3{
         margin-left: 570px;
         width: 150px;
         margin-bottom: 10px;
@@ -284,10 +289,10 @@ img{
 
 #program_tekst h2{
     color: black;
-    font-size: 5rem;
-  letter-spacing: 20px;
+    font-size: 4rem;
+  letter-spacing: 5px;
     position: absolute;
-    top: 1.2%;
+    top: 4%;
     left: 15%;
 }
 .grid_1{
@@ -296,8 +301,12 @@ display: grid ;
 
 #element_1{
     margin-right: 100px;
-    margin-top: 10px;
+    margin-top: 5px;
     padding-bottom: 25px;
+}
+#element_1 h1{
+    font-size: 2rem;
+    color: #D81146;
 }
 
 #forside_02, #forside_03, #forside_04, #forside_05{
@@ -383,7 +392,6 @@ margin-top: 50px;
 }
 #indhold_02_overst img, #indhold_03_overst img, #indhold_04_overst img, #indhold_05_overst img{
     order: 1;
-    margin-left: 5px;
     margin-top: 50px;
 }
 
